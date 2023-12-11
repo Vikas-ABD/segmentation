@@ -16,7 +16,7 @@ implemented on [Python](https://www.python.org) that uses a model to detect Lice
 
 ## Install
 
-* Clone this repository: `git clone https://github.com/Vikas-ABD/Projects.git`
+* Clone this repository: `git clone https://github.com/Vikas-ABD/segmentation_for_Lane_following_car_Application_using_modified_New_Model.git`
 * Go to this folder Computer Vision using Deep Learning & Machine Learning/segmentation_using_UNET/LICENCE_PLATE_DETECTION_USING_UNET in Projects repository.
 * Install dependencies by running `pip3 install -r requirements.txt`
 
