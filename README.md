@@ -1,34 +1,42 @@
-# License Plate Segmentation Using UNET in tensorflow
+# License Plate Segmentation Using UNET in TensorFlow
 
-<div align="center">
-<<<<<<< HEAD
-    <img src="./app/static/Screenshot 2023-09-21 221428.png"/>
-=======
-  <img src="./app/static/Screenshot 2023-09-21 221428.png"/>
->>>>>>> d7db7ff57c0b8cf8237675ce64da398d6f547a84
-</div>
+![Sample Image](./app/static/Screenshot%202023-09-21%20221428.png)
+
+This project implements License Plate Segmentation using the UNET model in TensorFlow. It provides a web interface for detecting license plates in images.
+
+## Overview
+
+The web interface utilizes the UNET Object Segmentation Model implemented in Python with TensorFlow to detect license plates in images.
+
+## Installation
+
+1. Clone this repository:
+
+    ```bash
+    git clone https://github.com/Vikas-ABD/segmentation_for_Lane_following_car_Application_using_modified_New_Model.git
+    ```
+
+2. Navigate to the project folder:
+
+    ```bash
+    cd path/to/segmentation_for_Lane_following_car_Application_using_modified_New_Model/Computer\ Vision\ using\ Deep\ Learning\ \&\ Machine\ Learning/segmentation_using_UNET/LICENCE_PLATE_DETECTION_USING_UNET
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    pip3 install -r requirements.txt
+    ```
+
+## Running the Web Interface
+
+Execute the following command to start the web server:
+
+```bash
+python app/flaskapp.py
+'''
 
 
-<!-- The source code for [this](https://dev.to/andreygermanov/a-practical-introduction-to-object-detection-with-yolov8-neural-network-3n8c) article. -->
 
-This is a web interface to [UNET Objection Segmentation Model](https://pyimagesearch.com/2022/02/21/u-net-image-segmentation-in-keras/) 
-implemented on [Python](https://www.python.org) that uses a model to detect License Plate on images.
+Feel free to use this modified markdown code for your project presentation. If you have further questions or need additional adjustments, let me know!
 
-## Install
-
-* Clone this repository: `git clone https://github.com/Vikas-ABD/segmentation_for_Lane_following_car_Application_using_modified_New_Model.git`
-* Go to this folder Computer Vision using Deep Learning & Machine Learning/segmentation_using_UNET/LICENCE_PLATE_DETECTION_USING_UNET in Projects repository.
-* Install dependencies by running `pip3 install -r requirements.txt`
-
-## Run
-
-Execute:
-
-```
-python app\flaskapp.py.py
-
-```
-
-It will start a webserver on http://localhost:5000. Use any web browser to open the web interface.
-
-Using the interface you can upload the image to the object detector and see segmentation of all objects(License-plate) detected on it.
